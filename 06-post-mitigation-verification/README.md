@@ -90,7 +90,7 @@ It confirms that the request completed the approval process successfully and was
 
 I used this as the final check to make sure the access request and mitigation process were both completed as expected.
 
-![Access Request Approved Closure](evidence/E25-request-137-approved-closure.png)
+![Access Request Approved Closure](evidence/E25-request-137-role-provisioned.png)
 
 ---
 

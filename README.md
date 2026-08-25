@@ -226,7 +226,7 @@ sap-grc-arm-access-request-mitigation/
 └── 06-post-mitigation-verification/
     └── evidence/
         ├── E24-active-mitigation-verification.png
-        └── E25-request-137-approved-closure.png
+        └── E25-request-137-role-provisioned.png
 ```
 
 ---
