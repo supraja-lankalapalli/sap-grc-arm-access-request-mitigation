@@ -90,7 +90,7 @@ It confirms that user `BEST1` received role `ZS:ALLUSER` in target system `TESTG
 
 The provisioning action shows that the requested access was successfully assigned in the target system.
 
-![Access Request 137 Provisioned](evidence/E25-request-137-provisioned.png)
+![Access Request 137 Provisioned](evidence/E25-request-137-role-provisioned.png)
 
 ---
 

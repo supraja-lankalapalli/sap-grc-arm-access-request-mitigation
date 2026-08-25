@@ -44,7 +44,7 @@ Before completing the access request, I ran a user-level risk simulation.
 
 The simulation identified risk `B001`. I reviewed the risk details, including the conflicting functions, actions, affected role, system, and risk level.
 
-This step helped me confirm that the requested access introduced an SoD conflict before the access was approved.
+This step helped me identify and review SoD risk `B001` for user `BEST1` before continuing with the access request and mitigation process.
 
 **Result:** Risk `B001` was identified during preventive analysis.
 
@@ -205,17 +205,17 @@ sap-grc-arm-access-request-mitigation/
 │   └── evidence/
 │       └── E12-preventive-risk-simulation.png
 │
-├── 03-workflow-approval/
+├── ├── 03-workflow-approval/
 │   └── evidence/
 │       ├── E15-workflow-routing-audit-log.png
 │       ├── E16-manager-approval-workitem.png
 │       ├── E17-manager-approval-completed.png
 │       ├── E18-role-owner-approval-stage.png
-│       ├── E19-role-owner-approval-completed.png
-│       └── E20-provisioning-log.png
+│       └── E19-role-owner-approval-completed.png
 │
-├── 04-mitigation-control/
+├── ├── 04-mitigation-control/
 │   └── evidence/
+│       ├── E20-mitigation-control-responsibilities.png
 │       └── E21-control-owner-monitor-saved.png
 │
 ├── 05-user-mitigation-assignment/

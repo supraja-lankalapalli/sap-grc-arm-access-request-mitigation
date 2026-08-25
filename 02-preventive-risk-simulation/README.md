@@ -29,7 +29,7 @@ The simulation identified risk `B001`, so I reviewed the risk details before con
 
 I ran the risk simulation for the requested access and reviewed the result.
 
-The analysis showed that the requested role was creating SoD risk `B001`.
+The analysis identified SoD risk `B001` for user `BEST1`.
 
 I checked the risk level, conflicting functions, conflicting actions, role, and target system to understand where the conflict was coming from.
 
