@@ -79,17 +79,6 @@ At this point, the required approval stages were finished.
 ![Role Owner Approval Completed](evidence/E19-role-owner-approval-completed.png)
 
 ---
-
-### E20 – Provisioning Log
-
-After the approvals were completed, I checked the provisioning log.
-
-This screenshot helped me verify that the approved access request was processed by the system and did not stop at the approval stage.
-
-![Provisioning Log](evidence/E20-provisioning-log.png)
-
----
-
 ## Result
 
 Access Request `137` successfully moved through the manager approval and role-owner approval stages.

@@ -2,11 +2,11 @@
 
 ## Overview
 
-In this step, I worked on the mitigating control for the SoD risk that was identified during the preventive risk analysis.
+In this step, I worked on the mitigating control for the SoD risk identified during the risk analysis.
 
-The access was still required for the business scenario, so instead of removing the role, I handled the risk by configuring mitigating control `MC_B001`.
+The access was still required for the business scenario, so instead of removing the requested access, I handled the risk by configuring mitigating control `MC_B001`.
 
-My goal in this step was to make sure the identified risk had a proper control, clear ownership, and monitoring responsibility before assigning the mitigation to the user.
+My focus was to make sure the control had the right responsibility setup before assigning it to the user.
 
 ---
 
@@ -24,52 +24,60 @@ My goal in this step was to make sure the identified risk had a proper control, 
 
 ## What I Did
 
-I opened the mitigating control setup and configured control `MC_B001` for the identified risk.
+I opened the mitigating control setup and reviewed the control details for `MC_B001`.
 
-I reviewed the control information and maintained the responsibility details for the mitigation process.
+I then maintained the responsibility setup for the control.
 
 I assigned `BST_MITOWN1` as the mitigation approver and `BST_MITCNT1` as the control monitor.
 
-I intentionally kept the approver and monitor as two different users.
+I kept these responsibilities with two different users so the same person was not responsible for both approving and monitoring the mitigation.
 
-This was important because I did not want the same person to approve the mitigation and also be responsible for monitoring the control.
+After reviewing the setup, I saved the control configuration and confirmed that the responsibility assignments were maintained successfully.
 
-Keeping these responsibilities separate helped maintain better control ownership and supported proper governance around the risk.
-
-After reviewing the control setup, I saved the mitigating control with the required responsibility assignments.
+This made the control ready to be used for the user mitigation assignment.
 
 ---
 
 ## Why This Step Was Important
 
-The SoD risk was already identified, but identifying the risk alone was not enough.
+Finding the SoD risk was only the first part of the process.
 
-Since the business still required the access, I needed a way to manage the risk without simply removing the requested role.
+Since the user still needed the access, the risk had to be managed in a controlled way.
 
-The mitigating control provided that additional layer of oversight.
+The mitigating control helped provide that additional review and monitoring.
 
-By assigning a separate approver and monitor, the control had both accountability and independent monitoring instead of depending on one person for everything.
+Keeping the approver and monitor separate also helped maintain clear responsibility in the mitigation process.
 
 ---
 
 ## Evidence
 
+### E20 – Mitigation Control Responsibilities
+
+This screenshot shows the responsibility setup for mitigating control `MC_B001`.
+
+It shows that `BST_MITOWN1` was maintained as the mitigation approver and `BST_MITCNT1` as the control monitor.
+
+I used separate users for these responsibilities so approval and monitoring were not handled by the same person.
+
+![Mitigation Control Responsibilities](evidence/E20-mitigation-control-responsibilities.png)
+
+---
+
 ### E21 – Mitigation Control Owner and Monitor Saved
 
-This screenshot shows the mitigating control configuration for `MC_B001`.
+This screenshot confirms that the responsibility setup for mitigating control `MC_B001` was saved successfully.
 
-It confirms that the mitigation approver and control monitor were maintained separately.
+It shows the separate approver and monitor assignments and confirms that the control configuration was ready for the next step.
 
-The screenshot also shows that the control information was saved successfully and was ready to be used for the user mitigation assignment.
-
-![Mitigation Control Owner and Monitor](evidence/E21-control-owner-monitor-saved.png)
+![Mitigation Control Owner and Monitor Saved](evidence/E21-control-owner-monitor-saved.png)
 
 ---
 
 ## Result
 
-Mitigating control `MC_B001` was successfully configured for the identified SoD risk.
+Mitigating control `MC_B001` was successfully configured with separate approval and monitoring responsibilities.
 
-The control had separate responsibility for approval and monitoring, which helped make the mitigation process stronger and more controlled.
+The control setup was saved successfully and was ready to be assigned to user `BEST1` for risk `B001`.
 
-At this point, the control was ready to be assigned to user `BEST1` for risk `B001`.
+This step helped make sure the identified risk was not only documented, but also supported by a proper mitigation and responsibility structure.

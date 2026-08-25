@@ -82,21 +82,21 @@ I used this screen to verify that the approved mitigation was actually in place 
 
 ---
 
-### E25 – Access Request 137 Approved and Completed
+### E25 – Access Request 137 Provisioned
 
-This screenshot shows the final status of Access Request `137`.
+This screenshot shows the provisioning log for Access Request `137`.
 
-It confirms that the request completed the approval process successfully and was no longer pending.
+It confirms that user `BEST1` received role `ZS:ALLUSER` in target system `TESTGRC447` after the required approval workflow was completed.
 
-I used this as the final check to make sure the access request and mitigation process were both completed as expected.
+The provisioning action shows that the requested access was successfully assigned in the target system.
 
-![Access Request Approved Closure](evidence/E25-request-137-role-provisioned.png)
+![Access Request 137 Provisioned](evidence/E25-request-137-provisioned.png)
 
 ---
 
 ## Final Result
 
-The final verification confirmed that Access Request `137` was completed successfully and that the identified SoD risk `B001` had an active mitigating control assigned to user `BEST1`.
+The final verification confirmed that Access Request `137` completed the required approval workflow and the requested role was successfully provisioned to user `BEST1` in system `TESTGRC447`. The identified SoD risk `B001` also had an active mitigating control assigned.
 
 The complete process covered:
 
